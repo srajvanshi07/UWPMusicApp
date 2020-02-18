@@ -122,7 +122,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\MenuItem.cs" />
     <Compile Include="Model\Music.cs" />
+    <Compile Include="Model\MusicManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +133,38 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\Classical.png" />
+    <Content Include="Assets\Icons\Country.png" />
+    <Content Include="Assets\Icons\International.png" />
+    <Content Include="Assets\Icons\Others.png" />
+    <Content Include="Assets\Icons\Rock.png" />
+    <Content Include="Assets\Images\Classical\Downfall.jpeg" />
+    <Content Include="Assets\Images\Classical\Lesser Faith.jpeg" />
+    <Content Include="Assets\Images\Classical\Phase2.jpeg" />
+    <Content Include="Assets\Images\Country\Brain ID 1270.jpeg" />
+    <Content Include="Assets\Images\Country\Squirrel Fever.jpeg" />
+    <Content Include="Assets\Images\Country\The Meat Rack Jan 2016 LIVE.jpeg" />
+    <Content Include="Assets\Images\International\inter1.jpeg" />
+    <Content Include="Assets\Images\International\inter2.jpeg" />
+    <Content Include="Assets\Images\International\inter3.jpeg" />
+    <Content Include="Assets\Images\Others\Shipping Lanes.jpeg" />
+    <Content Include="Assets\Images\Others\The Stork.jpeg" />
+    <Content Include="Assets\Images\Others\Towel Defence Sad Ending.jpeg" />
+    <Content Include="Assets\Images\Rock\Say Goodnight.jpeg" />
+    <Content Include="Assets\Images\Rock\Storybook.jpeg" />
+    <Content Include="Assets\Images\Rock\Up North Classic.jpeg" />
+    <Content Include="Assets\Music\Classical\Downfall.mp3" />
+    <Content Include="Assets\Music\Classical\Lesser Faith.mp3" />
+    <Content Include="Assets\Music\Classical\Phase2.mp3" />
+    <Content Include="Assets\Music\Country\Brain ID 1270.mp3" />
+    <Content Include="Assets\Music\Country\Squirrel Fever.mp3" />
+    <Content Include="Assets\Music\Country\The Meat Rack Jan 2016 LIVE.mp3" />
+    <Content Include="Assets\Music\Others\Shipping Lanes.mp3" />
+    <Content Include="Assets\Music\Others\The Stork.mp3" />
+    <Content Include="Assets\Music\Others\Towel Defence Sad Ending.mp3" />
+    <Content Include="Assets\Music\Rock\Say Goodnight.mp3" />
+    <Content Include="Assets\Music\Rock\Storybook.mp3" />
+    <Content Include="Assets\Music\Rock\Up North Classic.mp3" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

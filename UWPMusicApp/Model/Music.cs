@@ -15,9 +15,29 @@ namespace UWPMusicApp.Model
         //public string  Classical { get; set; }
         //public string International { get; set; }
         public string Name { get; set; }
-        public SoundCategory Category { get; set; }
+        public MusicCategory Category { get; set; }
         public string AudioFile { get; set; }
         public string Imagefile { get; set; }
 
+
+        //Create enum type
+        public enum MusicCategory
+        {
+                //Pop,
+               // Jazz,
+                Rock,
+                //HipHop,
+                Country,
+                Classical,
+                International
+        }
+         //Create constuctor:
+        public Music(string name, MusicCategory category)
+        {
+            Name = name;
+            Category = category;
+            AudioFile = $"/Assets/Music/{category}/{name}.mp3";
+            Imagefile = $"/Assets/Images/{category}/{name}.jpeg";
+        }
     }
 }
